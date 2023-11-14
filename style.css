@@ -1,0 +1,331 @@
+/* INDEX */
+
+
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.padding-poggers {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    font-family: 'Manrope', sans-serif;
+    margin-left: 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+
+main {
+    margin-top: 200px;
+}
+
+main h1 {
+    width: 450px;
+    font-size: 3.5rem;
+}
+
+main img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.introducao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.introducao p {
+    width: 300px;
+    text-align: right;
+    opacity: 0.5;
+}
+
+.paddingFoda {
+    padding-left: 300px;
+    padding-right: 300px;
+    overflow-x: hidden;
+}
+
+section {
+    margin-top: 130px;
+    padding: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
+
+section p {
+    font-size: 1.3rem;
+    width: 30%;
+}
+
+section img {
+    width: 35%;
+}
+
+section h2 {
+    font-size: 2rem;
+}
+
+section h6 {
+    font-size: 1rem;
+    opacity: 0.5;
+    margin-top: 30px;
+}
+
+.textoSecao2 {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 500px;
+}
+
+.depoimentos {
+    background-color: rgb(238, 238, 238);
+    padding: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.card h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.card p {
+    font-size: .9rem;
+    margin-bottom: 30px;
+    opacity: 0.6;
+}
+
+.card img {
+    width: 35%;
+    margin-right: 60px;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+.branco {
+    background-color: white !important;
+}
+
+.contato {
+    padding: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato h1 {
+    width: 600px;
+    margin-bottom: 50px;
+}
+
+.contato p {
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    background: transparent;
+}
+
+input {
+    width: 30%;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #333;
+    background: transparent;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    padding: 5px 15px;
+    border: none;
+    background: transparent;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+button:focus {
+    outline: none;
+}
+
+footer {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 50px 10%;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-logo span {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.footer-content>div {
+    margin-right: 20px;
+}
+
+.footer-nav a,
+.footer-links a,
+.footer-social a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    margin-top: 50px;
+}
+
+.footer-bottom p {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-nav,
+    .footer-links,
+    .footer-social {
+        margin-bottom: 20px;
+    }
+}
+
+/* SOBRE */
+.cinza {
+    margin-top:150px ;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.cinza img{
+    width: 70%;
+}
+
+/* login */
+
+.login {
+    padding: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.login h1 {
+    width: 600px;
+    margin-bottom: 50px;
+}
+
+.login p {
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+
+.input-container1{
+    display: flex;
+    flex-direction: row;
+}
+
+.inputSobre{
+    margin: 20px;
+    width: 300px !important;
+    height: 30px !important;
+    height:auto ;
+    
+}
+
+.inputSobre::placeholder{
+    font-size: 16px;
+    display: flex;
+    
+}
+
+.input-sobre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-sobre h6{
+    margin-top: 40px;
+}
+
+.input-cadastro{
+    height: 400px;
+    flex-wrap: wrap;
+}
