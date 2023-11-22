@@ -37,13 +37,6 @@ ScrollReveal().reveal('#textoDepoimentos', {
   duration: 1000,
   reset: false
 });
-ScrollReveal().reveal('.rodape', {
-  origin: 'bottom',
-  distance: '1000px',
-  duration: 1000,
-  reset: false
-});
-
 ScrollReveal().reveal('#cinza', {
   scale: 0.5,
   duration: 1000,
@@ -60,6 +53,13 @@ ScrollReveal().reveal('.textinhoContato', {
 ScrollReveal().reveal('.input-sobre', {
   origin: 'right',
   distance: '1000px',
+  duration: 1000,
+  reset: false
+});
+
+ScrollReveal().reveal('.rapaz', {
+  origin: 'right',
+  distance: '700px',
   duration: 1000,
   reset: false
 });

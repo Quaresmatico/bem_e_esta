@@ -16,7 +16,10 @@
 
 <body>
     <header>
-        <img src="logo.png" alt="logo" width="5%">
+        <div class="logo">
+            <img src="logo.png" alt="logo" width="70px" height="70px">
+            <p>Bem e estar</p>
+        </div>
         <ul>
             <a href="index.html">
                 <li>Home</li>
@@ -31,18 +34,18 @@
     </header>
 
     <main>
-        <form class="login">
+        <form class="login" method="post" action="/cadastrousuario">
             <div class="textinhoContato">
                 <h1>Faça seu cadastro é rápido e fácil!</h1>
             </div>
             <div class="input-sobre">
                 <div>
-                    <input type="text" placeholder="Seu Nome" class="inputSobre">
-                    <input type="password" placeholder="Senha: " class="inputSobre">
-                    <input type="number" placeholder="Telefone: " class="inputSobre">
-                    <input type="text" placeholder="Endereço: " class="inputSobre">
-                    <input type="email" placeholder="seu@email.vai.aqui" class="inputSobre">
-                    <input type="text" placeholder="Nacionalidade?" class="inputSobre">
+                    <input type="text" placeholder="Seu Nome" name="nome" class="inputSobre">
+                    <input type="password" placeholder="Senha: " name="senha" class="inputSobre">
+                    <input type="number" placeholder="Telefone: " name="telefone" class="inputSobre">
+                    <input type="text" placeholder="Endereço: " name="endereco" class="inputSobre">
+                    <input type="email" placeholder="seu@email.vai.aqui" name="email" class="inputSobre">
+                    <input type="text" placeholder="Nacionalidade:" name="nacionalidade" class="inputSobre">
                 </div>
                 <button type="submit">SUBMIT</button>
                 <h6>Já tem cadastro? <a href="login.html">Faça o login</a></h6>
